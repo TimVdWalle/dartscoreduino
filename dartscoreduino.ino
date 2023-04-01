@@ -5,6 +5,23 @@
 *           http://www.adafruit.com/products/880
 *           https://learn.adafruit.com/adafruit-led-backpack/
 *
+*       Wifi shield  
+*         https://docs.arduino.cc/retired/shields/arduino-wifi-
+*         https://github.com/arduino-libraries/WiFi/tree/master/examples
+*
+*
+*     Connections
+*           WIFI: just mount the wifi shield on the arduino
+*
+*           7 segments displays: 
+*                 change the adress of the second one to 71 by soldering one of the address jumpers on the backpack
+*                 connect arduino - shield
+*                         SCL     - C
+*                         SDA     - D
+*                         GND     - - (minus symbol)
+*                         5V      - + (plus symbol)
+*           
+*
 ********************************************************************************/
 #include <Wire.h> // Enable this line if using Arduino Uno, Mega, etc.
 #include <Adafruit_GFX.h>
